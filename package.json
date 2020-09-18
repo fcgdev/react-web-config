@@ -1,8 +1,11 @@
 {
   "name": "react-web-config",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "react-native-config for web",
   "main": "lib/index.js",
+    "files": [
+    "/lib"
+   ],
   "scripts": {
     "test": "jest",
     "build": "babel src --out-dir lib --ignore **/__tests__/**"
@@ -31,7 +34,8 @@
   },
   "homepage": "https://github.com/tanhauhau/react-web-config#readme",
   "dependencies": {
-    "dotenv": "^4.0.0"
+    "dotenv": "^4.0.0",
+    "webpack": "4.41.5"
   },
   "devDependencies": {
     "babel-cli": "^6.24.1",
@@ -43,6 +47,7 @@
     "karma-mocha": "^1.3.0",
     "karma-phantomjs-launcher": "^1.0.4",
     "karma-webpack": "^2.0.3",
-    "mocha": "^3.2.0"
+    "mocha": "^3.2.0",
+    "webpack": "4.41.5"
   }
 }
