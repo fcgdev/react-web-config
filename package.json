@@ -32,7 +32,7 @@
   "homepage": "https://github.com/tanhauhau/react-web-config#readme",
   "dependencies": {
     "dotenv": "^4.0.0",
-    "webpack": "^2.3.3"
+    "webpack": "^4.0.0"
   },
   "devDependencies": {
     "babel-cli": "^6.24.1",
@@ -45,6 +45,6 @@
     "karma-phantomjs-launcher": "^1.0.4",
     "karma-webpack": "^2.0.3",
     "mocha": "^3.2.0",
-    "webpack": "^2.3.3"
+    "webpack": "^4.0.0"
   }
 }
